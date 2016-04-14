@@ -1,6 +1,6 @@
 /**
  * chosen-readonly - Readonly support for Chosen selects
- * @version v0.9.0
+ * @version v1.0.1
  * @link http://github.com/westonganger/chosen-jquery
  * @license GNU GPL
  */
@@ -8,15 +8,9 @@
 (function($){
 
   $.fn.chosenReadonly = function(isReadonly){
-    if(isReadonly){
-      this.attr('readonly', 'readonly');
-    }elsif(isReadonly === false){
-      this.removeAttr('readonly');
-    }
-
     this.on('chosen:updated', function(){
       var item = $(this);
-      if(isReadonlyitem.attr('readonly')){
+      if(item.attr('readonly')){
         var wasDisabled = item.is(':disabled');
         
         item.attr('disabled', 'disabled');
@@ -28,7 +22,15 @@
           item.removeAttr('disabled');
         }
       }
-    }).trigger('chosen:updated');
+    });
+
+    if(isReadonly){
+      this.attr('readonly', 'readonly');
+    }else if(isReadonly === false){
+      this.removeAttr('readonly');
+    }
+
+    this.trigger('chosen:updated');
   };
 
 }(jQuery));

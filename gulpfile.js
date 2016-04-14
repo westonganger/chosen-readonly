@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    uglify = require('uglify'),
+    uglify = require('gulp-uglify'),
     pump = require('pump');
 
 require('gulp-release-it')(gulp);
@@ -11,9 +11,7 @@ var paths = {
 gulp.task('default', ['minify']);
 
 gulp.task('clean',function(cb){
-  del([
-    './www/templates/*'
-  ], cb);
+  del(paths.js , cb);
 });
 
 gulp.task('minify', ['clean'], function(cb){
