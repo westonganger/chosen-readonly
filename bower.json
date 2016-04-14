@@ -1,6 +1,6 @@
 {
   "name": "chosen-readonly",
-  "version": "0.9.0",
+  "version": "1.0.1",
   "description": "Readonly support for Chosen selects",
   "main": "dist/chosen-readonly.js",
   "directories": {
@@ -28,6 +28,5 @@
     "jquery": ">=1.0.0",
     "chosen": ">=1.0.0"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
