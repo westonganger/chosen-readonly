@@ -1,6 +1,6 @@
 {
   "name": "chosen-readonly",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Readonly support for Chosen selects",
   "main": "dist/chosen-readonly.js",
   "directories": {
@@ -32,6 +32,8 @@
     "gulp": "*",
     "gulp-uglify": "*",
     "pump": "*",
+    "del": "*",
+    "gulp-rename": "*",
     "gulp-release-it": "~1"
   }
 }

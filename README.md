@@ -25,6 +25,9 @@ $('select').chosen().chosenReadonly(true);
 
 /* Remove readonly from all elements */
 $('select').chosen().chosenReadonly(false);
+
+/* Anytime you want to trigger the readonly check just run */
+$('select').trigger('chosen:updated');
 ```
 
 

@@ -1,29 +1,35 @@
 var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
-    pump = require('pump');
+    pump = require('pump'),
+    rename = require('gulp-rename'),
+    del = require('del');
 
 require('gulp-release-it')(gulp);
 
 var paths = {
-  js: './src/*.js',
+  src: './src/*.js',
+  dist: './dist/'
 };
 
 gulp.task('default', ['minify']);
 
 gulp.task('clean',function(cb){
-  del(paths.js , cb);
+  return del(paths.dist+"*" , cb);
 });
 
 gulp.task('minify', ['clean'], function(cb){
   pump([
-    gulp.src(paths.js), 
+    gulp.src(paths.src), 
     uglify({
-      preserveComments: true  
+      preserveComments: 'license'
     }), 
-    gulp.dest('dist')
+    rename({
+      suffix: '.min'
+    }),
+    gulp.dest(paths.dist)
   ], cb);
 });
 
 gulp.task('watch', function() {
-  gulp.watch(paths.js, ['minify']);
+  gulp.watch(paths.src, ['minify']);
 });

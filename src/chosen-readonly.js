@@ -1,7 +1,7 @@
 /**
  * chosen-readonly - Readonly support for Chosen selects
- * @version v1.0.1
- * @link http://github.com/westonganger/chosen-jquery
+ * @version v1.0.2
+ * @link http://github.com/westonganger/chosen-readonly
  * @license GNU GPL
  */
 
