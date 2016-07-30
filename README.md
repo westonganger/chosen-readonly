@@ -15,6 +15,21 @@ bower install chosen-readonly
 npm install chosen-readonly
 ```
 
+#### Rails
+```ruby
+# Gemfile
+source 'https://rails-assets.org' do
+  gem 'rails-assets-chosen-readonly'
+end
+
+
+# app/assets/stylesheets/application.scss
+/*
+ *= require chosen
+ *= require chosen-readonly
+*/
+```
+
 # Usage
 ```javascript
 /* Makes elements readonly if they already have the readonly attribute */

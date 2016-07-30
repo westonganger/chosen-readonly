@@ -1,6 +1,6 @@
-/**
+/*
  * chosen-readonly - Readonly support for Chosen selects
- * @version v1.0.2
+ * @version v1.0.3
  * @link http://github.com/westonganger/chosen-readonly
  * @license GNU GPL
  */
