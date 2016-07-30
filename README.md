@@ -23,7 +23,7 @@ source 'https://rails-assets.org' do
 end
 
 
-# app/assets/stylesheets/application.scss
+# app/assets/javascripts/application.js
 /*
  *= require chosen
  *= require chosen-readonly
