@@ -5,7 +5,7 @@ Chosen Readonly is a JQuery plugin that enables the support of the readonly attr
 
 # Install
 
-#### Yarm, NPM, or Bower
+#### Yarn, NPM, or Bower
 ```
 yarn add chosen-material-theme
 
