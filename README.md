@@ -5,14 +5,13 @@ Chosen Readonly is a JQuery plugin that enables the support of the readonly attr
 
 # Install
 
-##### Bower
+#### Yarm, NPM, or Bower
 ```
-bower install chosen-readonly
-```
+yarn add chosen-material-theme
 
-##### NPM
-```
-npm install chosen-readonly
+npm install chosen-material-theme
+
+bower install chosen-material-theme
 ```
 
 #### Rails
