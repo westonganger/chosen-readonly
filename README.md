@@ -1,7 +1,7 @@
 # Chosen Readonly
 <a href='https://ko-fi.com/A5071NK' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=a' border='0' alt='Buy Me a Coffee' /></a> 
 
-Chosen Readonly is a jQuery plugin that enables the support of the readonly attribute for chosen selects.
+Chosen Readonly is a plugin that enables the support of the readonly attribute for chosen selects.
 
 # Install
 
