@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>chosen-readonly Test Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.6.2/chosen.min.css">
+
+    <style>
+      body{
+        padding: 20px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Testing chosen-readonly</h1>
+
+    <div style="width: 500px; margin: 20px;">
+      <select id="input1">
+        <option></option>
+        <option>Option 1</option>
+        <option>Option 2</option>
+        <option>Option 3</option>
+      </select>
+
+      <button id="toggleReadonly" style="margin-left:10px;">Toggle Readonly</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.6.2/chosen.jquery.min.js"></script>
+    <script src="src/chosen-readonly.js"></script>
+    <script type="text/javascript">
+      $('select').chosen({width: '220px'});
+
+      var readonly = false;
+
+      $('button#toggleReadonly').click(function(){
+        readonly = !readonly;
+        $('select').chosenReadonly(readonly);
+      });
+    </script>
+  </body>
+</html>

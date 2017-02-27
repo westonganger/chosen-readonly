@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/westonganger/chosen-readonly",
   "dependencies": {
-    "jquery": ">=1.0",
     "chosen-npm": ">=1.0"
   },
   "devDependencies": {
@@ -33,7 +32,6 @@
     "gulp-uglify": "*",
     "pump": "*",
     "del": "*",
-    "gulp-rename": "*",
-    "gulp-release-it": "~1"
+    "gulp-rename": "*"
   }
 }

@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/westonganger/chosen-readonly",
   "dependencies": {
-    "jquery": ">=1.0.0",
     "chosen": ">=1.0.0"
   },
   "devDependencies": {}
