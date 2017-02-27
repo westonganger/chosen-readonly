@@ -7,11 +7,11 @@ Chosen Readonly is a jQuery plugin that enables the support of the readonly attr
 
 #### Yarn, NPM, or Bower
 ```
-yarn add chosen-material-theme
+yarn add chosen-readonly
 
-npm install chosen-material-theme
+npm install chosen-readonly
 
-bower install chosen-material-theme
+bower install chosen-readonly
 ```
 
 #### Rails
