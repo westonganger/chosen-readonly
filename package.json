@@ -1,6 +1,6 @@
 {
   "name": "chosen-readonly",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Readonly support for Chosen selects",
   "main": "dist/chosen-readonly.min.js",
   "directories": {
