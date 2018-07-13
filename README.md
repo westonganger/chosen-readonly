@@ -1,7 +1,9 @@
-# Chosen Readonly
-<a href='https://ko-fi.com/A5071NK' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=a' border='0' alt='Buy Me a Coffee' /></a> 
+# chosen-readonly
+<a href="https://badge.fury.io/js/chosen-readonly" target="_blank"><img height="21" style='border:0px;height:21px;' border='0' src="https://badge.fury.io/js/chosen-readonly.svg" alt="NPM Version"></a>
+<a href='https://www.npmjs.org/package/chosen-readonly' target='_blank'><img height='21' style='border:0px;height:21px;' src='https://img.shields.io/npm/dt/chosen-readonly.svg?label=NPM+Downloads' border='0' alt='NPM Downloads' /></a>
+<a href='https://ko-fi.com/A5071NK' target='_blank'><img height='22' style='border:0px;height:22px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=a' border='0' alt='Buy Me a Coffee' /></a> 
 
-Chosen Readonly is a plugin that enables the support of the readonly attribute for chosen selects.
+`chosen-readonly` is a plugin that enables the support of the readonly attribute for chosen selects.
 
 # Install
 
